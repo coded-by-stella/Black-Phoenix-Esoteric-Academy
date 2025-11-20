@@ -347,6 +347,23 @@ a {
   font-style: italic;
 }
 
+.hero-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.hero-logo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #7A2BF2;
+  box-shadow: 0 0 10px rgba(122, 43, 242, 0.35);
+}
+
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -768,4 +785,16 @@ a {
     width: 100%;
     justify-content: space-between;
   }
+}
+
+
+.round-logo {
+  border-radius: 50%;
+}
+
+.site-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 1rem;
 }
